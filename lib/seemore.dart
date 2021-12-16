@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_calendar/rec.dart';
 import 'launcher.dart';
 
 var value;
@@ -26,7 +27,7 @@ class _Record2State extends State<Record2> {
             onPressed: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => Launcher()),
+                MaterialPageRoute(builder: (context) => Rec()),
               );
             },
             icon: Icon(

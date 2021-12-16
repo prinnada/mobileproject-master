@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_calendar/rec.dart';
 import 'package:flutter_calendar/seemore.dart';
 import 'welcome.dart';
 import 'package:flutter_calendar/welcome.dart';
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Welcome(),
+      home: Rec(),
     );
   }
 }

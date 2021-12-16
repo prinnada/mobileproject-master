@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_calendar/howareyou.dart';
 import 'package:flutter_calendar/instructive.dart';
+import 'package:flutter_calendar/rec.dart';
 import 'dart:convert';
 import 'package:flutter_calendar/welcome.dart';
 import 'package:table_calendar/table_calendar.dart';
@@ -363,7 +364,7 @@ class _LauncherState extends State<Launcher>
                                                 context,
                                                 MaterialPageRoute(
                                                     builder: (context) =>
-                                                        Record1()),
+                                                        Rec()),
                                               );
                                             },
                                             child: Text('    คลิก     '),
